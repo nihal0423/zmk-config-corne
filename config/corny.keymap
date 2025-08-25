@@ -131,7 +131,7 @@
             bindings = <
 &kp TAB                               &kp Q                       &kp W                          &kp E                        &kp R                              &kp T                                          &kp Y      &kp U                                &kp I                         &kp O                            &kp P                                   &kp BSPC
 &home_row_mod_left LEFT_SHIFT ESCAPE  &home_row_mod_left LCTRL A  &home_row_mod_left LEFT_ALT S  &home_row_mod_left LSHIFT D  &home_row_mod_left LEFT_COMMAND F  &kp G                                          &kp H      &home_row_mod_right RIGHT_COMMAND J  &home_row_mod_right RSHIFT K  &home_row_mod_right RIGHT_ALT L  &home_row_mod_right RIGHT_CONTROL SEMI  &kp SQT
-&kp LCTRL                             &kp Z                       &kp X                          &kp C                        &kp V                              &kp B      &kp C_PLAY_PAUSE  &kp LEFT_COMMAND  &kp N      &kp M                                &kp COMMA                     &kp DOT                          &kp FSLH                                &kp DEL
+&kp LCTRL                             &kp Z                       &kp X                          &kp C                        &kp V                              &kp B                                          &kp N      &kp M                                &kp COMMA                     &kp DOT                          &kp FSLH                                &kp DEL
                                                                                                  &kp LALT                     &td_mo_1                           &kp SPACE                                      &kp ENTER  &td_mo_2                             &td_mo_3
             >;
 
@@ -144,7 +144,7 @@
             bindings = <
 &td_bt_next_prev  &rgb_ug RGB_EFF                 &rgb_ug RGB_SPI                &rgb_ug RGB_BRI                &rgb_ug RGB_HUI                  &rgb_ug RGB_SAI                            &trans  &kp N7  &kp N8  &kp N9  &none    &trans
 &bt BT_CLR        &rgb_ug RGB_EFR                 &rgb_ug RGB_SPD                &rgb_ug RGB_BRD                &rgb_ug RGB_HUD                  &rgb_ug RGB_SAD                            &trans  &kp N4  &kp N5  &kp N6  &trans   &trans
-&rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_COLOR_HSB(0,0,59)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &trans           &bootloader  &bootloader  &kp N0  &kp N1  &kp N2  &kp N3  &kp DOT  &trans
+&rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(0,0,75)  &rgb_ug RGB_COLOR_HSB(0,0,59)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &trans                                     &kp N0  &kp N1  &kp N2  &kp N3  &kp DOT  &trans
                                                                                  &trans                         &to 0                            &trans                                     &trans  &trans  &trans
             >;
 
@@ -157,7 +157,7 @@
             bindings = <
 &kp TAB    &kp EXCL  &kp AT     &kp HASH          &kp DLLR                 &kp PRCNT                &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
 &kp LCTRL  &trans    &trans     &kp LG(LEFT)      &kp LG(RIGHT_ARROW)      &trans                   &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &kp LG(W)  &kp LA(LG(LEFT))  &kp LA(LG(RIGHT_ARROW))  &trans     &none  &none  &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&kp LSHFT  &trans    &kp LG(W)  &kp LA(LG(LEFT))  &kp LA(LG(RIGHT_ARROW))  &trans                   &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                                 &trans            &trans                   &trans                   &trans     &to 0      &trans
             >;
 
@@ -168,7 +168,7 @@
             bindings = <
 &trans  &trans   &trans  &trans  &trans  &trans                  &trans    &trans    &trans  &trans     &trans  &trans
 &trans  &chrome  &brave  &trans  &trans  &trans                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &navicat  &trans    &trans  &trans     &trans  &trans
+&trans  &trans   &trans  &trans  &trans  &trans                  &navicat  &trans    &trans  &trans     &trans  &trans
                          &trans  &trans  &trans                  &trans    &trans    &to 0
             >;
         };
